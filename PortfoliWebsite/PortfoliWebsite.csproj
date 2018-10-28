@@ -148,6 +148,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -161,6 +162,7 @@
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\css\main.css" />
+    <Content Include="Content\images\FB_IMG_1531691644825.jpg" />
     <Content Include="Content\images\pic01.jpg" />
     <Content Include="Content\images\pic02.jpg" />
     <Content Include="Content\images\pic03.jpg" />
@@ -216,6 +218,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Navigation\MyProjects.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

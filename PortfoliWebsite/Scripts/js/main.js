@@ -257,6 +257,14 @@
 
 				});
 
-			});
+    });
+    //typed js
+    $(".typed").typed({
+        strings: ["My Name is Md. Hasibul Hasan", "I'm a Software Engineer", "Love Traveling", "Outgoing and friendly!!"],
+        typeSpeed: 100,
+        backDelay: 900,
+        // loop
+        loop: true
+    });
 
 })(jQuery);
